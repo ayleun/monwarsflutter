@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ombre -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" /> <!-- Couleur de l'ombre (noir à 25% de transparence) -->
+            <corners android:radius="40dp" /> <!-- Coins arrondis -->
+        </shape>
+    </item>
+
+    <!-- Fond transparent -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF" /> <!-- Fond blanc à 50% de transparence -->
+            <corners android:radius="40dp" /> <!-- Coins arrondis -->
+            <stroke android:width="2dp" android:color="#0A0000" /> <!-- Bordure -->
+        </shape>
+    </item>
+</layer-list>
